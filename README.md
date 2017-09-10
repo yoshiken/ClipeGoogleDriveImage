@@ -20,9 +20,8 @@ http://drive.google.com/uc?export=view&id=[UUID]
 
 e.g.)
 https://drive.google.com/file/d/0B2LqxGTtH5UHajc0VnNwb1ZtaEU/view
-↓
 
-> <img src="http://drive.google.com/uc?export=view&id=0B2LqxGTtH5UHajc0VnNwb1ZtaEU">
+↓
 
 <img src="http://drive.google.com/uc?export=view&id=0B2LqxGTtH5UHajc0VnNwb1ZtaEU">
 
