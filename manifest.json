@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "ClipeGoogleDriveImage",
+  "description": "GoogleDriveの画像をimgタグで貼れるようにするやつ",
+  "version": "1.0",
+  "browser_action": {
+
+  },
+  "permissions": [
+        "tabs","clipboardWrite"
+    ],
+  "background": {
+        "scripts": ["js/background.js"]
+    },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://drive.google.com/file/d/*"
+      ],
+      "js": ["js/content_scripts.js"]
+    }
+  ],
+  "commands": {
+        "save_url_and_title": {
+            "suggested_key": {
+                "default": "Alt+C"
+            },
+            "description": "Save Title and URL"
+        }
+    },
+  "permissions": [
+        "tabs","clipboardWrite"
+    ]
+}
