@@ -12,14 +12,7 @@
   "background": {
         "scripts": ["js/background.js"]
     },
-  "content_scripts": [
-    {
-      "matches": [
-        "https://drive.google.com/file/d/*"
-      ],
-      "js": ["js/content_scripts.js"]
-    }
-  ],
+
   "commands": {
         "save_url_and_title": {
             "suggested_key": {
@@ -30,5 +23,6 @@
     },
   "permissions": [
         "tabs","clipboardWrite"
-    ]
+    ],
+    "options_page": "options.html"
 }
