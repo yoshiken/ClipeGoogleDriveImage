@@ -26,8 +26,6 @@ https://drive.google.com/file/d/0B2LqxGTtH5UHajc0VnNwb1ZtaEU/view
 <img src="http://drive.google.com/uc?export=view&id=0B2LqxGTtH5UHajc0VnNwb1ZtaEU">
 
 
-めんどくさいから文字数で抜いてるので色々バグあるかも。
-気が向いたら正規表現でいい感じにするね…
 
 # 連絡先
 

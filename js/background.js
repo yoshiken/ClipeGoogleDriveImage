@@ -2,12 +2,13 @@ chrome.commands.onCommand.addListener(function(command) {
   chrome.tabs.getSelected(null, function(tab) {
     var text_area = document.createElement('textarea');
     var urlstr = tab.url;
-    urlstr = urlstr.slice( 32 ).slice( 0, -5 ) ;
+    urlstr = urlstr.split("/")
+    urlstr1 = urlstr[5]
     if (localStorage.cptype == false) {
       localStorage.cptype = 0 ;
     }
     var strurl = "";
-    strurl += "http://drive.google.com/uc?export=view&id=" + urlstr;
+    strurl += "http://drive.google.com/uc?export=view&id=" + urlstr1;
     if (localStorage.cptype = 1) {
       strurl = "<img src=\"" + strurl + "\">";
     }
