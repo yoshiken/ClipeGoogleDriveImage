@@ -23,8 +23,9 @@ https://drive.google.com/file/d/0B2LqxGTtH5UHajc0VnNwb1ZtaEU/view
 
 ↓
 
-<img src="http://drive.google.com/uc?export=view&id=0B2LqxGTtH5UHajc0VnNwb1ZtaEU">
+`<img src="http://drive.google.com/uc?export=view&id=0B2LqxGTtH5UHajc0VnNwb1ZtaEU">`
 
+オプションでCopy時の形式を選べます
 
 
 # 連絡先
